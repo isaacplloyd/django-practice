@@ -1,1 +1,1 @@
-web: uwsgi uwsgi.ini
+web: gunicorn djangop.djangop.wsgi.py:application
