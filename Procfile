@@ -1,1 +1,1 @@
-web: gunicorn --chdir=/djangop wsgi:application
+web: gunicorn --workers=2 ./djangop/wsgi:application
