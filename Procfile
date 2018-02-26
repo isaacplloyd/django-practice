@@ -1,1 +1,1 @@
-web: gunicorn ./djangop/wsgi:application
+web: gunicorn --chdir=/djangop wsgi:application
